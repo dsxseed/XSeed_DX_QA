@@ -17,7 +17,7 @@ public class MainPage {
 	
 	//System.setProperty("webdriver.chrome.driver", "D://chromedriver.exe");
 	 //System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
-	System.setProperty("webdriver.chrome.driver","D://Chrome//chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","E://chromedriver_win32//chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	
 	driver.get("http://54.169.104.165/");
@@ -39,15 +39,6 @@ public class MainPage {
 	 driver.findElement(By.xpath("//div[@class='top_nav row']//span[@class='fa fa-angle-down']")).click();
 	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	 driver.findElement(By.xpath("//div[@class='top_nav row']//ul//li//ul//li[4]")).click();
-	 //driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-	//driver.findElement(By.name("emailphone")).sendKeys("Hello");;
-	//driver.findElement(By.xpath("//*[@id='myModal-1']//div//span[contains(text(),'Admin SignIn')]")).click();
-	//*[@id='myModal-1']/div/div/div[2]/div/div/ul/li[2]/a
-//	driver.findElement(By.xpath("//*[@id=\"myModal-1\"]/div/div/div[2]/div/div/ul/li[2]/a/span")).click();
-	//*[@id="myModal-1"]/div/div/div[2]/div/div/ul/li[2]/a/span
-	//*[@id='myModal-1']//a//span[contains(text(),'Admin SignIn')]"
-	//*[@id="myModal-1"]/div/div/div[2]/div/form/div/div/div/div/div[5]/button
-	//li[contains(@class,'panel with-nav-tabs panel-default')/a
-	
+	 
 	}
 }
